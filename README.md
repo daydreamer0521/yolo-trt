@@ -5,7 +5,7 @@ tensorrt 8.6.1.6
 opencv 4.13
 ## 2. 使用
 1. 用gen_wts.py将.pt文件转化为.wts文件
-2. 修改config.h文件
+2. 修改include/config.h文件
 3. 修改build_xxx.cpp文件
 4. 编译
 5. 生成engine文件： `./yolo11_xxx`
